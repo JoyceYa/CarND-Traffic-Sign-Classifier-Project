@@ -21,21 +21,7 @@ The goals / steps of this project are the following:
 [image2]: ./ReferImg/Preprocessing.png "Preprocessing"
 [image3]: ./ReferImg/Original_VS_augmented.png "Original_VS_augmented"
 [image4]: ./ReferImg/NewTestImg.png "NewTestImg"
-[image5]: ./ReferImg/dataSet_visualization.png "Traffic Sign 2"
-[image6]: ./ReferImg/dataSet_visualization.png "Visualization"
-[image7]: ./ReferImg/dataSet_visualization.png "Grayscaling"
-[image8]: ./ReferImg/dataSet_visualization.png "Random Noise"
-[image9]: ./ReferImg/dataSet_visualization.png "Traffic Sign 1"
-[image10]: ./ReferImg/dataSet_visualization.png "Traffic Sign 2"
-[image11]: ./ReferImg/dataSet_visualization.png "Visualization"
-[image12]: ./ReferImg/dataSet_visualization.png "Grayscaling"
-[image13]: ./ReferImg/dataSet_visualization.png "Random Noise"
-[image14]: ./ReferImg/dataSet_visualization.png "Traffic Sign 1"
-[image15]: ./ReferImg/dataSet_visualization.png "Traffic Sign 2"
-[image16]: ./ReferImg/dataSet_visualization.png "Visualization"
-[image17]: ./ReferImg/dataSet_visualization.png "Grayscaling"
-[image18]: ./ReferImg/dataSet_visualization.png "Random Noise"
-[image19]: ./ReferImg/dataSet_visualization.png "Traffic Sign 1"
+[image5]: ./ReferImg/NewTestResults.png "NewTestResults"
 
 
 ## Rubric Points
@@ -46,7 +32,7 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+You're reading it! and here is a link to my [project code](https://github.com/JoyceYa/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier_v2-936.ipynb)
 
 ### Data Set Summary & Exploration
 
@@ -159,7 +145,7 @@ Here are the results of the prediction:
 | 1-60 km/h       		| Ahead only   									| 
 | 2-No entry       		| No entry   									| 
 | 3-Stop Sign      		| Stop sign   									| 
-| 4-Danger cur to right | Dangerous curve to the right  				|
+| 4-Dangerous curve to the right | Dangerous curve to the right  				|
 | 5-Keep right			| Keep right									|
 | 6-Turn right ahead	| Turn right ahead				 				|
 | 7-No vehicles	   		| Keep right					 				|
@@ -200,3 +186,7 @@ For the eighth image, the model is not sure that this is a no entry sign (probab
 | .00				    | Go straight or left  							|
 
 For the rest of the images, the model is sure that these are what the signs really are (probability of 1.0).
+
+Here is an exploratory visualization of the test results.
+
+![alt text][image5] 
